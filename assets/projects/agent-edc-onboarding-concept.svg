@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title description">
+  <title id="title">Agent EDC onboarding concept preview</title>
+  <desc id="description">A concept interface showing agent profile, device setup, and activation stages for an EDC onboarding platform.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111b"/>
+      <stop offset="0.55" stop-color="#13283a"/>
+      <stop offset="1" stop-color="#08131f"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20374a"/>
+      <stop offset="1" stop-color="#111d29"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="2" height="2" fill="#66c0f4" opacity=".13"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#background)"/>
+  <rect width="1280" height="720" fill="url(#dots)"/>
+  <path d="M0 620 380 430l216 82 292-224 392 176v256H0z" fill="#0b1823" opacity=".78"/>
+
+  <text x="64" y="66" fill="#66c0f4" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">CONCEPT PREVIEW</text>
+  <text x="64" y="110" fill="#f0f6fa" font-family="Arial, sans-serif" font-size="38" font-weight="700">Agent EDC Onboarding</text>
+  <text x="64" y="140" fill="#9baebe" font-family="Arial, sans-serif" font-size="17">A temporary visual until real project screenshots are available</text>
+
+  <g transform="translate(64 190)">
+    <rect width="1152" height="420" rx="3" fill="#0b141d" stroke="#38627d" stroke-width="2"/>
+    <rect width="1152" height="58" fill="#1b3347"/>
+    <circle cx="28" cy="29" r="7" fill="#73c9ef"/>
+    <text x="52" y="35" fill="#c8e9fa" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="2">ONBOARDING CONTROL PANEL</text>
+    <rect x="970" y="16" width="150" height="28" fill="#173147" stroke="#4b8eb5"/>
+    <text x="1045" y="35" text-anchor="middle" fill="#9bd8f6" font-family="Arial, sans-serif" font-size="12" font-weight="700">DRAFT INTERFACE</text>
+
+    <g transform="translate(30 88)">
+      <rect width="270" height="292" fill="url(#panel)" stroke="#355b73"/>
+      <text x="22" y="34" fill="#7fcdf2" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">AGENT PROFILE</text>
+      <circle cx="64" cy="98" r="34" fill="#182632" stroke="#78ccef" stroke-width="3"/>
+      <circle cx="64" cy="88" r="12" fill="#85d6f7"/>
+      <path d="M42 122c4-17 40-17 44 0" fill="#85d6f7"/>
+      <rect x="116" y="70" width="116" height="12" fill="#b6c5cf"/>
+      <rect x="116" y="94" width="86" height="9" fill="#64798a"/>
+      <rect x="22" y="160" width="226" height="40" fill="#0d1822" stroke="#334d60"/>
+      <rect x="22" y="216" width="226" height="40" fill="#0d1822" stroke="#334d60"/>
+      <rect x="22" y="272" width="126" height="34" fill="#235f84"/>
+    </g>
+
+    <g transform="translate(330 88)">
+      <rect width="340" height="292" fill="url(#panel)" stroke="#355b73"/>
+      <text x="22" y="34" fill="#7fcdf2" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">DEVICE SETUP</text>
+      <rect x="22" y="62" width="296" height="98" fill="#0e1923" stroke="#355b73"/>
+      <rect x="48" y="82" width="70" height="58" rx="4" fill="#223849" stroke="#8bd7f7" stroke-width="2"/>
+      <rect x="60" y="94" width="46" height="22" fill="#82ccec"/>
+      <g fill="#6c8495"><rect x="60" y="124" width="8" height="8"/><rect x="73" y="124" width="8" height="8"/><rect x="86" y="124" width="8" height="8"/></g>
+      <rect x="144" y="82" width="144" height="12" fill="#bdcad2"/>
+      <rect x="144" y="108" width="104" height="9" fill="#637889"/>
+      <rect x="144" y="130" width="128" height="9" fill="#637889"/>
+      <rect x="22" y="182" width="296" height="38" fill="#0d1822" stroke="#334d60"/>
+      <rect x="22" y="238" width="180" height="36" fill="#235f84"/>
+      <rect x="216" y="238" width="102" height="36" fill="#162736" stroke="#3c6680"/>
+    </g>
+
+    <g transform="translate(700 88)">
+      <rect width="422" height="292" fill="url(#panel)" stroke="#355b73"/>
+      <text x="22" y="34" fill="#7fcdf2" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">ACTIVATION</text>
+      <circle cx="104" cy="132" r="64" fill="#102635" stroke="#69c6ed" stroke-width="4"/>
+      <path d="m72 132 22 22 44-52" fill="none" stroke="#8ee8ae" stroke-width="10" stroke-linecap="square"/>
+      <text x="198" y="92" fill="#f0f6fa" font-family="Arial, sans-serif" font-size="25" font-weight="700">Ready to activate</text>
+      <text x="198" y="126" fill="#9babb7" font-family="Arial, sans-serif" font-size="15">Profile and device data verified</text>
+      <rect x="198" y="158" width="178" height="40" fill="#416f1d"/>
+      <text x="287" y="184" text-anchor="middle" fill="#dff6c7" font-family="Arial, sans-serif" font-size="13" font-weight="700">ACTIVATE AGENT</text>
+      <rect x="22" y="234" width="354" height="34" fill="#0d1822" stroke="#334d60"/>
+      <rect x="35" y="247" width="288" height="8" fill="#73d6a0"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="13" font-weight="700">
+    <text x="64" y="654" fill="#78cff5">GO SERVICES</text>
+    <text x="192" y="654" fill="#78cff5">REACT WEB APP</text>
+    <text x="350" y="654" fill="#78cff5">POSTGRESQL</text>
+  </g>
+  <text x="1216" y="654" text-anchor="end" fill="#728697" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">PLACEHOLDER / NOT A PRODUCTION SCREEN</text>
+</svg>

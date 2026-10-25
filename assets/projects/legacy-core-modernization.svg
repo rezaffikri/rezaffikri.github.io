@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title description">
+  <title id="title">Legacy core modernization</title>
+  <desc id="description">A simple migration diagram from .NET Framework 4.5 to modern .NET 8.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1420"/>
+      <stop offset="1" stop-color="#111f2d"/>
+    </linearGradient>
+    <linearGradient id="legacy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#303b46"/>
+      <stop offset="1" stop-color="#202a34"/>
+    </linearGradient>
+    <linearGradient id="modern" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f5272"/>
+      <stop offset="1" stop-color="#17384f"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#66c0f4" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#background)"/>
+  <rect width="1280" height="720" fill="url(#grid)"/>
+
+  <text x="640" y="92" text-anchor="middle" fill="#66c0f4" font-family="Trebuchet MS, sans-serif" font-size="18" font-weight="700" letter-spacing="4">LEGACY CORE MODERNIZATION</text>
+  <text x="640" y="130" text-anchor="middle" fill="#8fa4b3" font-family="Trebuchet MS, sans-serif" font-size="18">A controlled runtime upgrade</text>
+
+  <g transform="translate(120 210)">
+    <rect width="370" height="300" fill="url(#legacy)" stroke="#667582" stroke-width="2"/>
+    <rect x="28" y="28" width="314" height="34" fill="#18212a"/>
+    <text x="48" y="51" fill="#9aa8b3" font-family="Trebuchet MS, sans-serif" font-size="14" font-weight="700" letter-spacing="2">LEGACY RUNTIME</text>
+    <text x="185" y="150" text-anchor="middle" fill="#f0f3f5" font-family="Trebuchet MS, sans-serif" font-size="34" font-weight="700">.NET Framework</text>
+    <text x="185" y="202" text-anchor="middle" fill="#c1cad1" font-family="Trebuchet MS, sans-serif" font-size="28">4.5</text>
+    <path d="M82 244h206" stroke="#788590" stroke-width="2"/>
+    <text x="185" y="274" text-anchor="middle" fill="#8e9ba5" font-family="Trebuchet MS, sans-serif" font-size="15">Existing platform</text>
+  </g>
+
+  <g transform="translate(535 315)">
+    <path d="M0 42h150" stroke="#66c0f4" stroke-width="8"/>
+    <path d="m150 18 42 24-42 24z" fill="#66c0f4"/>
+    <text x="92" y="6" text-anchor="middle" fill="#9fd5f4" font-family="Trebuchet MS, sans-serif" font-size="15" font-weight="700" letter-spacing="2">MIGRATION</text>
+  </g>
+
+  <g transform="translate(790 210)">
+    <rect width="370" height="300" fill="url(#modern)" stroke="#66c0f4" stroke-width="2"/>
+    <rect x="28" y="28" width="314" height="34" fill="#102536"/>
+    <text x="48" y="51" fill="#9fd5f4" font-family="Trebuchet MS, sans-serif" font-size="14" font-weight="700" letter-spacing="2">MODERN RUNTIME</text>
+    <text x="185" y="150" text-anchor="middle" fill="#f3fbff" font-family="Trebuchet MS, sans-serif" font-size="38" font-weight="700">Modern .NET</text>
+    <text x="185" y="202" text-anchor="middle" fill="#bde8ff" font-family="Trebuchet MS, sans-serif" font-size="30">.NET 8</text>
+    <path d="M82 244h206" stroke="#68a8ca" stroke-width="2"/>
+    <text x="185" y="274" text-anchor="middle" fill="#9bc6dc" font-family="Trebuchet MS, sans-serif" font-size="15">Current platform</text>
+  </g>
+
+  <text x="640" y="610" text-anchor="middle" fill="#8799a7" font-family="Trebuchet MS, sans-serif" font-size="17">Backward compatibility maintained during the transition</text>
+</svg>
